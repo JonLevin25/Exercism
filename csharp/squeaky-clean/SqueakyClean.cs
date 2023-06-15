@@ -4,8 +4,8 @@ using System.Text;
 public static class Identifier
 {
  
-    const char Alpha = 'α';
-    const char Omega = 'ω';
+    const int AlphaInt = (int)'α';
+    const int OmegaInt = (int)'ω';
 
     public static string Clean(string identifier)
     {
@@ -19,6 +19,8 @@ public static class Identifier
         while (i < identifier.Length)
         {
             var c = identifier[i];
+            var cInt = (int)c;
+
             if (c == ' ')
             {
                 sb.Append('_');
@@ -29,8 +31,9 @@ public static class Identifier
             else if (c == '-')
             {
                 sb.Append(char.ToUpper(identifier[i+1]));
+                i++;
             }
-            else if (char.IsLetter(c) && !IsCharInRange(c, Alpha, Omega))
+            else if (char.IsLetter(c) && !IsInRange(cInt, AlphaInt, OmegaInt))
             {
                 sb.Append(c);
             }
@@ -41,12 +44,5 @@ public static class Identifier
         return sb.ToString();
     }
 
-    private static bool IsCharInRange(char c, char lowerLetter, char higherLetter)
-    {
-            var cVal = char.GetNumericValue(c);
-            var lowVal = char.GetNumericValue(lowerLetter);
-            var highVal = char.GetNumericValue(higherLetter);
-
-            return lowVal <= cVal && cVal <= highVal;
-    }
+    private static bool IsInRange(int x, int min, int max) => min <= x && x <= max;
 }

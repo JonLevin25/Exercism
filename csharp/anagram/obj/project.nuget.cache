@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SPPkLvktETtOaWqrcEHIfLr/gtYKanNnO4aaDV0FGFItnRjYXHi5I7/5xhL0jJCFNaSh9OFCGWGKrdpwuGA6UQ==",
+  "dgSpecHash": "d97MupS7KHKENbTOS+42MGydUhyEko01J+4pa4xx1S8BxyOyuuTL10aRSs4aBnR/qz8i2CSQ72RSdqciitiiQg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tesla\\PROJECTS\\00.Personal\\360.NET\\Exercism\\csharp\\anagram\\Anagram.csproj",
   "expectedPackageFiles": [
@@ -95,6 +95,7 @@
     "C:\\Users\\Tesla\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
     "C:\\Users\\Tesla\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
     "C:\\Users\\Tesla\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
+    "C:\\Users\\Tesla\\.nuget\\packages\\xunit.runner.console\\2.4.2\\xunit.runner.console.2.4.2.nupkg.sha512",
     "C:\\Users\\Tesla\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
   "logs": []

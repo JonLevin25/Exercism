@@ -11,6 +11,7 @@
           "Exercism.Tests": "0.1.0-beta1",
           "Microsoft.NET.Test.Sdk": "16.8.3",
           "xunit": "2.4.1",
+          "xunit.runner.console": "2.4.2",
           "xunit.runner.visualstudio": "2.4.3"
         },
         "runtime": {
@@ -1099,6 +1100,7 @@
           }
         }
       },
+      "xunit.runner.console/2.4.2": {},
       "xunit.runner.visualstudio/2.4.3": {}
     }
   },
@@ -1744,6 +1746,13 @@
       "sha512": "sha512-7e/1jqBpcb7frLkB6XDrHCGXAbKN4Rtdb88epYxCSRQuZDRW8UtTfdTEVpdTl8s4T56e07hOBVd4G0OdCxIY2A==",
       "path": "xunit.extensibility.execution/2.4.1",
       "hashPath": "xunit.extensibility.execution.2.4.1.nupkg.sha512"
+    },
+    "xunit.runner.console/2.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aiT5umBAiGm6r8y9wAkqeGtojtMpMi+qeTUq6eg53x5utBgX+c49in/Oq+ZDg57gAfbMlYoNChOv2LbC7K9Q4g==",
+      "path": "xunit.runner.console/2.4.2",
+      "hashPath": "xunit.runner.console.2.4.2.nupkg.sha512"
     },
     "xunit.runner.visualstudio/2.4.3": {
       "type": "package",
